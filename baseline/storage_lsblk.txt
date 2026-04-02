@@ -1,0 +1,9 @@
+### COMMAND: lsblk -o NAME,SIZE,TYPE,MOUNTPOINT
+### DATE: 2026-03-26T11:26:45-04:00
+
+NAME     SIZE TYPE MOUNTPOINT
+sda    931.5G disk 
+├─sda1     1G part /boot/efi
+├─sda2   466G part 
+└─sda3 464.5G part /
+sr0     1024M rom  

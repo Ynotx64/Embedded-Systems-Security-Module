@@ -1,0 +1,26 @@
+### COMMAND: sudo dmidecode -t system
+### DATE: 2026-03-26T11:26:45-04:00
+
+# dmidecode 3.7
+Getting SMBIOS data from sysfs.
+SMBIOS 2.8 present.
+
+Handle 0x0001, DMI type 1, 27 bytes
+System Information
+	Manufacturer: Dell Inc.
+	Product Name: Inspiron 5755
+	Version: A11
+	Serial Number: DQ99462
+	UUID: 4c4c4544-0051-3910-8039-c4c04f343632
+	Wake-up Type: Power Switch
+	SKU Number: Inspiron 5755
+	Family:                       
+
+Handle 0x0011, DMI type 12, 5 bytes
+System Configuration Options
+	Option 1: To Be Filled By O.E.M.
+
+Handle 0x001D, DMI type 32, 20 bytes
+System Boot Information
+	Status: No errors detected
+

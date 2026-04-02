@@ -1,0 +1,13 @@
+### COMMAND: ethtool -i enp2s0
+### DATE: 2026-03-26T11:26:46-04:00
+
+driver: r8169
+version: 6.18.9-arch1-2
+firmware-version: rtl8106e-1_0.0.1 06/29/12
+expansion-rom-version: 
+bus-info: 0000:02:00.0
+supports-statistics: yes
+supports-test: no
+supports-eeprom-access: no
+supports-register-dump: yes
+supports-priv-flags: no

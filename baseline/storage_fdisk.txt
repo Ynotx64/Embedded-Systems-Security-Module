@@ -1,0 +1,15 @@
+### COMMAND: sudo fdisk -l
+### DATE: 2026-03-26T11:26:45-04:00
+
+Disk /dev/sda: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
+Disk model: ST1000LM024 HN-M
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: gpt
+Disk identifier: 690BF4ED-60F6-4046-ABE9-208CC668D066
+
+Device         Start        End   Sectors   Size Type
+/dev/sda1       2048    2203647   2201600     1G EFI System
+/dev/sda2    2203648  979476479 977272832   466G Linux filesystem
+/dev/sda3  979476480 1953523711 974047232 464.5G Linux filesystem

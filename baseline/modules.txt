@@ -1,0 +1,133 @@
+### COMMAND: lsmod
+### DATE: 2026-03-26T11:26:46-04:00
+
+Module                  Size  Used by
+snd_seq_dummy          12288  0
+snd_hrtimer            12288  1
+snd_seq               135168  7 snd_seq_dummy
+snd_seq_device         16384  1 snd_seq
+xt_MASQUERADE          16384  2
+xt_tcpudp              16384  2
+xt_mark                12288  6
+tun                    73728  2
+nf_tables             397312  0
+ip6table_nat           12288  1
+ip6table_filter        12288  1
+ip6_tables             36864  2 ip6table_filter,ip6table_nat
+cmac                   12288  1
+iptable_nat            12288  1
+ccm                    20480  6
+nf_nat                 61440  3 ip6table_nat,iptable_nat,xt_MASQUERADE
+nf_conntrack          196608  2 nf_nat,xt_MASQUERADE
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         12288  1 nf_conntrack
+iptable_filter         12288  1
+ip_tables              36864  2 iptable_filter,iptable_nat
+x_tables               65536  9 ip6table_filter,iptable_filter,ip6table_nat,xt_tcpudp,ip6_tables,ip_tables,iptable_nat,xt_MASQUERADE,xt_mark
+vfat                   24576  1
+fat                   114688  1 vfat
+snd_ctl_led            24576  0
+snd_hda_codec_alc269   147456  1
+uvcvideo              176128  0
+snd_hda_scodec_component    20480  1 snd_hda_codec_alc269
+kvm_amd               241664  0
+snd_hda_codec_realtek_lib    61440  1 snd_hda_codec_alc269
+videobuf2_vmalloc      20480  1 uvcvideo
+snd_hda_codec_atihdmi    20480  1
+kvm                  1421312  1 kvm_amd
+snd_hda_codec_generic   114688  2 snd_hda_codec_realtek_lib,snd_hda_codec_alc269
+snd_hda_codec_hdmi     61440  1 snd_hda_codec_atihdmi
+uvc                    12288  1 uvcvideo
+videobuf2_memops       16384  1 videobuf2_vmalloc
+videobuf2_v4l2         40960  1 uvcvideo
+videobuf2_common       94208  4 videobuf2_vmalloc,videobuf2_v4l2,uvcvideo,videobuf2_memops
+ath9k                 229376  0
+irqbypass              16384  1 kvm
+videodev              397312  2 videobuf2_v4l2,uvcvideo
+snd_hda_intel          69632  2
+ath9k_common           53248  1 ath9k
+rtsx_usb_ms            24576  0
+ath9k_hw              573440  2 ath9k_common,ath9k
+ath3k                  20480  0
+memstick               24576  1 rtsx_usb_ms
+polyval_clmulni        12288  0
+mc                     90112  4 videodev,videobuf2_v4l2,uvcvideo,videobuf2_common
+snd_hda_codec         217088  6 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec_realtek_lib,snd_hda_codec_alc269,snd_hda_codec_atihdmi
+platform_profile       20480  0
+btusb                  81920  0
+ghash_clmulni_intel    12288  0
+snd_hda_core          147456  7 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek_lib,snd_hda_codec_alc269,snd_hda_codec_atihdmi
+dell_laptop            45056  0
+btmtk                  32768  1 btusb
+joydev                 24576  0
+r8169                 143360  0
+ath                    40960  3 ath9k_common,ath9k,ath9k_hw
+aesni_intel            98304  5
+mousedev               28672  0
+btrtl                  32768  1 btusb
+k10temp                12288  0
+fam15h_power           12288  0
+dell_smm_hwmon         28672  0
+snd_intel_dspcfg       45056  1 snd_hda_intel
+snd_intel_sdw_acpi     16384  1 snd_intel_dspcfg
+at24                   28672  0
+mac80211             1683456  2 ath9k,ath9k_hw
+snd_hwdep              24576  1 snd_hda_codec
+ccp                   196608  1 kvm_amd
+dell_wmi               28672  1 dell_laptop
+sparse_keymap          12288  1 dell_wmi
+snd_pcm               212992  4 snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_core
+sp5100_tco             20480  0
+dell_smbios            36864  2 dell_wmi,dell_laptop
+dcdbas                 20480  1 dell_smbios
+pcspkr                 12288  0
+snd_timer              57344  3 snd_seq,snd_hrtimer,snd_pcm
+btbcm                  24576  1 btusb
+dell_rbtn              20480  0
+dell_wmi_descriptor    20480  2 dell_wmi,dell_smbios
+btintel                73728  1 btusb
+acpi_cpufreq           32768  0
+i2c_piix4              36864  0
+realtek                57344  1
+snd                   159744  18 snd_ctl_led,snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_timer,snd_hda_codec_realtek_lib,snd_hda_codec_alc269,snd_pcm
+wmi_bmof               12288  0
+cfg80211             1429504  4 ath9k_common,ath9k,ath,mac80211
+mdio_devres            12288  1 r8169
+i2c_smbus              20480  1 i2c_piix4
+libphy                180224  3 r8169,mdio_devres,realtek
+soundcore              16384  2 snd_ctl_led,snd
+bluetooth            1118208  7 btrtl,btmtk,btintel,btbcm,ath3k,btusb
+libarc4                12288  1 mac80211
+mdio_bus               65536  3 r8169,libphy,realtek
+rfkill                 45056  7 ath9k,bluetooth,dell_laptop,dell_rbtn,cfg80211
+mac_hid                12288  0
+sg                     53248  0
+i2c_dev                28672  0
+crypto_user            12288  0
+nfnetlink              20480  2 nf_tables
+amdgpu              15716352  0
+amdxcp                 12288  1 amdgpu
+drm_panel_backlight_quirks    12288  1 amdgpu
+gpu_sched              69632  1 amdgpu
+drm_buddy              28672  1 amdgpu
+radeon               2183168  53
+drm_ttm_helper         16384  2 amdgpu,radeon
+ttm                   122880  3 amdgpu,radeon,drm_ttm_helper
+sdhci_pci             114688  0
+drm_exec               12288  2 amdgpu,radeon
+i2c_algo_bit           24576  2 amdgpu,radeon
+sdhci_uhs2             36864  1 sdhci_pci
+drm_suballoc_helper    16384  2 amdgpu,radeon
+sdhci                 102400  2 sdhci_uhs2,sdhci_pci
+sr_mod                 28672  0
+drm_display_helper    278528  2 amdgpu,radeon
+cdrom                  81920  1 sr_mod
+cqhci                  45056  1 sdhci_pci
+cec                    94208  2 drm_display_helper,amdgpu
+video                  81920  4 dell_wmi,amdgpu,radeon,dell_laptop
+wmi                    32768  6 video,dell_wmi,wmi_bmof,dell_smm_hwmon,dell_smbios,dell_wmi_descriptor
+serio_raw              20480  0
+hid_multitouch         36864  0
+rtsx_usb_sdmmc         40960  0
+mmc_core              299008  5 sdhci_uhs2,sdhci,rtsx_usb_sdmmc,cqhci,sdhci_pci
+rtsx_usb               36864  2 rtsx_usb_sdmmc,rtsx_usb_ms

@@ -1,0 +1,5 @@
+### COMMAND: bash -lc cat /sys/block/*/device/model 2>/dev/null
+### DATE: 2026-03-26T11:26:46-04:00
+
+ST1000LM024 HN-M
+DVD+-RW DU-8A5LH

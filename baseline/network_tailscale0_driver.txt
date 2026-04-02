@@ -1,0 +1,13 @@
+### COMMAND: ethtool -i tailscale0
+### DATE: 2026-03-26T11:26:46-04:00
+
+driver: tun
+version: 1.6
+firmware-version: 
+expansion-rom-version: 
+bus-info: tun
+supports-statistics: no
+supports-test: no
+supports-eeprom-access: no
+supports-register-dump: no
+supports-priv-flags: no

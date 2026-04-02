@@ -1,0 +1,5 @@
+# editor / shell junk
+*.swp
+*.swo
+*~
+.DS_Store

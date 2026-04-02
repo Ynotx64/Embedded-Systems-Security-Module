@@ -1,0 +1,17 @@
+### COMMAND: hostnamectl
+### DATE: 2026-03-26T11:26:45-04:00
+
+ Static hostname: arch
+       Icon name: computer-laptop
+         Chassis: laptop 💻
+      Machine ID: 7f4adc38fd874c52861b0a971c02b838
+         Boot ID: 5db2cb27130a4a33bcca6ab4108f9c08
+Operating System: Arch Linux
+          Kernel: Linux 6.18.9-arch1-2
+    Architecture: x86-64
+ Hardware Vendor: Dell Inc.
+  Hardware Model: Inspiron 5755
+Hardware Version: A11
+Firmware Version: A11
+   Firmware Date: Thu 2016-05-26
+    Firmware Age: 9y 10month

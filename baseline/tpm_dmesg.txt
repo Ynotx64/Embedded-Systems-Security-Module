@@ -1,0 +1,15 @@
+### COMMAND: sudo bash -lc dmesg | grep -i tpm || true
+### DATE: 2026-03-26T11:26:46-04:00
+
+[    0.000000] efi: ESRT=0x9dbc2518 ACPI=0x9d796000 ACPI 2.0=0x9d796000 SMBIOS=0x9dbc2218 INITRD=0x9a429798 TPMEventLog=0x8ff5d018 
+[    0.000000] TPM Final Events table not present
+[    0.010904] ACPI: TPM2 0x000000009D7AD7C0 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+[    0.010963] ACPI: Reserving TPM2 table memory at [mem 0x9d7ad7c0-0x9d7ad7f3]
+[    0.591721] tpm_crb MSFT0101:00: [Firmware Bug]: ACPI region does not cover the entire command/response buffer. [mem 0x9d896000-0x9d896fff flags 0x200] vs 9d896000 4000
+[    0.591734] tpm_crb MSFT0101:00: error -EBUSY: can't request region for resource [mem 0x9d896000-0x9d896fff]
+[    0.591740] tpm_crb MSFT0101:00: probe with driver tpm_crb failed with error -16
+[    1.149298] systemd[1]: systemd 259.1-1-arch running in system mode (+PAM +AUDIT -SELINUX +APPARMOR -IMA +IPE +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF +XKBCOMMON +UTMP -SYSVINIT +LIBARCHIVE)
+[    1.376953] systemd[1]: TPM PCR Barrier (initrd) skipped, unmet condition check ConditionSecurity=measured-uki
+[   14.529178] systemd[1]: systemd 259.1-1-arch running in system mode (+PAM +AUDIT -SELINUX +APPARMOR -IMA +IPE +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF +XKBCOMMON +UTMP -SYSVINIT +LIBARCHIVE)
+[   18.704649] systemd[1]: Expecting device /dev/tpm0...
+[   18.704673] systemd[1]: Expecting device /dev/tpmrm0...

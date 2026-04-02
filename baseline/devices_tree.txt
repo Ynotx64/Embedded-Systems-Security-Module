@@ -1,0 +1,20 @@
+### COMMAND: ls /sys/devices/
+### DATE: 2026-03-26T11:26:46-04:00
+
+breakpoint
+cpu
+faux
+ibs_fetch
+ibs_op
+isa
+kprobe
+LNXSYSTM:00
+msr
+pci0000:00
+platform
+pnp0
+software
+system
+tracepoint
+uprobe
+virtual

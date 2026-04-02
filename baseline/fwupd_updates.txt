@@ -1,0 +1,12 @@
+### COMMAND: sudo fwupdmgr get-updates
+### DATE: 2026-03-26T11:26:45-04:00
+
+Idle…: 0%
+Devices with no available firmware updates:
+ • KEK CA
+ • ST1000LM024 HN-M101MBB
+ • System Firmware
+ • UEFI CA
+ • UEFI dbx
+ • Windows Production PCA
+No updatable devices

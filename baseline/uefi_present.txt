@@ -1,0 +1,11 @@
+### COMMAND: ls /sys/firmware/efi
+### DATE: 2026-03-26T11:26:45-04:00
+
+config_table
+efivars
+esrt
+fw_platform_size
+fw_vendor
+runtime
+runtime-map
+systab

@@ -1,0 +1,9 @@
+### COMMAND: ls /sys/class/hwmon/
+### DATE: 2026-03-26T11:26:46-04:00
+
+hwmon0
+hwmon1
+hwmon2
+hwmon3
+hwmon4
+hwmon5

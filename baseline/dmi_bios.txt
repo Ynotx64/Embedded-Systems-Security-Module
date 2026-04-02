@@ -1,0 +1,47 @@
+### COMMAND: sudo dmidecode -t bios
+### DATE: 2026-03-26T11:26:45-04:00
+
+# dmidecode 3.7
+Getting SMBIOS data from sysfs.
+SMBIOS 2.8 present.
+
+Handle 0x0000, DMI type 0, 24 bytes
+Platform Firmware Information
+	Vendor: Dell Inc.
+	Version: A11
+	Release Date: 05/26/2016
+	Address: 0xF0000
+	Runtime Size: 64 KiB
+	ROM Size: 8 MiB
+	Characteristics:
+		PCI is supported
+		PNP is supported
+		Firmware is upgradeable
+		Firmware shadowing is allowed
+		Boot from CD is supported
+		Selectable boot is supported
+		EDD is supported
+		5.25"/1.2 MB floppy services are supported (int 13h)
+		3.5"/720 kB floppy services are supported (int 13h)
+		3.5"/2.88 MB floppy services are supported (int 13h)
+		Print screen service is supported (int 5h)
+		8042 keyboard services are supported (int 9h)
+		Serial services are supported (int 14h)
+		Printer services are supported (int 17h)
+		CGA/mono video services are supported (int 10h)
+		ACPI is supported
+		USB legacy is supported
+		ATAPI Zip drive boot is supported
+		Smart battery is supported
+		BIOS boot specification is supported
+		Targeted content distribution is supported
+		UEFI is supported
+	Platform Firmware Revision: 65.11
+
+Handle 0x002A, DMI type 13, 22 bytes
+Firmware Language Information
+	Language Description Format: Long
+	Installable Languages: 1
+		en|US|iso8859-1
+	Currently Installed Language: en|US|iso8859-1
+

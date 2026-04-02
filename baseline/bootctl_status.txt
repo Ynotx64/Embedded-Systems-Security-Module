@@ -1,0 +1,64 @@
+### COMMAND: bootctl status
+### DATE: 2026-03-26T11:26:45-04:00
+
+systemd-boot not installed in ESP.
+System:
+      Firmware: n/a (n/a)
+ Firmware Arch: x64
+   Secure Boot: disabled
+  TPM2 Support: firmware only, driver unavailable
+  Measured UKI: no
+  Boot into FW: supported
+
+Current Boot Loader:
+       Product: GRUB 2.14
+     Features: ✗ Boot counting
+               ✗ Menu timeout control
+               ✗ One-shot menu timeout control
+               ✗ Default entry control
+               ✗ One-shot entry control
+               ✗ Support for XBOOTLDR partition
+               ✗ Support for passing random seed to OS
+               ✗ Load drop-in drivers
+               ✗ Support Type #1 sort-key field
+               ✗ Support @saved pseudo-entry
+               ✗ Support Type #1 devicetree field
+               ✗ Enroll SecureBoot keys
+               ✗ Retain SHIM protocols
+               ✗ Menu can be disabled
+               ✗ Multi-Profile UKIs are supported
+               ✗ Loader reports network boot URL
+               ✗ Support Type #1 uki field
+               ✗ Support Type #1 uki-url field
+               ✗ Loader reports active TPM2 PCR banks
+     Partition: /dev/disk/by-partuuid/56b27cf9-4671-4553-b6ec-d0e26c2e7cd1
+
+Random Seed:
+ System Token: not set
+       Exists: no
+
+Available Boot Loaders on ESP:
+          ESP: /boot/efi (/dev/disk/by-partuuid/56b27cf9-4671-4553-b6ec-d0e26c2e7cd1)
+         File: ├─/boot/efi//EFI/BOOT/BOOTX64.EFI
+               ├─/boot/efi//EFI/BOOT/fbx64.efi
+               └─/boot/efi//EFI/BOOT/mmx64.efi
+
+Boot Loaders Listed in EFI Variables:
+        Title: GRUB
+           ID: 0x0002
+       Status: active, boot-order
+    Partition: /dev/disk/by-partuuid/56b27cf9-4671-4553-b6ec-d0e26c2e7cd1
+         File: └─/boot/efi//EFI/GRUB/grubx64.efi
+
+        Title: Ubuntu
+           ID: 0x0001
+       Status: active, boot-order
+    Partition: /dev/disk/by-partuuid/56b27cf9-4671-4553-b6ec-d0e26c2e7cd1
+         File: └─/boot/efi//EFI/ubuntu/shimx64.efi
+
+Boot Loader Entry Locations:
+          ESP: /boot/efi (/dev/disk/by-partuuid/56b27cf9-4671-4553-b6ec-d0e26c2e7cd1, $BOOT)
+       config: /boot/efi//loader/loader.conf: No such file or directory
+        token: arch
+
+0 entries, no entry could be determined as default.

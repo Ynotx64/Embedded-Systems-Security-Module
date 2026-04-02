@@ -1,0 +1,31 @@
+### COMMAND: sensors
+### DATE: 2026-03-26T11:26:46-04:00
+
+dell_smm-isa-00de
+Adapter: ISA adapter
+Docking Processor Fan:    0 RPM  (min =    0 RPM, max = 4600 RPM)
+CPU:                    +52.0°C  
+temp2:                      N/A  
+SODIMM:                 +33.0°C  
+Ambient:                +36.0°C  
+pwm1:                       N/A
+
+radeon-pci-0008
+Adapter: PCI adapter
+temp1:        +53.0°C  (crit = +120.0°C, hyst = +90.0°C)
+freq1:        300 MHz 
+
+k10temp-pci-00c3
+Adapter: PCI adapter
+temp1:        +51.9°C  (high = +70.0°C)
+                       (crit = +98.0°C, hyst = +97.0°C)
+
+fam15h_power-pci-00c4
+Adapter: PCI adapter
+power1:       28.35 W  (interval =   0.01 s, crit =  14.96 W)
+
+BAT1-acpi-0
+Adapter: ACPI interface
+in0:          16.46 V  
+curr1:       1000.00 uA 
+

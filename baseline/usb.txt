@@ -1,0 +1,13 @@
+### COMMAND: lsusb
+### DATE: 2026-03-26T11:26:45-04:00
+
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 0c45:6712 Microdia Integrated Webcam HD
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 002: ID 0438:7900 Advanced Micro Devices, Inc. Root Hub
+Bus 002 Device 003: ID 0bda:0129 Realtek Semiconductor Corp. RTS5129 Card Reader Controller
+Bus 002 Device 004: ID 06cb:75bf Synaptics, Inc.  
+Bus 003 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 004 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 004 Device 002: ID 0438:7900 Advanced Micro Devices, Inc. Root Hub
+Bus 004 Device 004: ID 0cf3:e005 Qualcomm Atheros Communications 

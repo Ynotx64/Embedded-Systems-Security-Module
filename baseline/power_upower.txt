@@ -1,0 +1,66 @@
+### COMMAND: upower -d
+### DATE: 2026-03-26T11:26:46-04:00
+
+Device: /org/freedesktop/UPower/devices/battery_BAT1
+  native-path:          BAT1
+  vendor:               SANYO
+  model:                DELL 07G0759L59L
+  serial:               2C7E
+  power supply:         yes
+  updated:              Thu 26 Mar 2026 11:26:44 AM EDT (2 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               fully-charged
+    warning-level:       none
+    energy:              17.2124 Wh
+    energy-empty:        0 Wh
+    energy-full:         17.2124 Wh
+    energy-full-design:  41.44 Wh
+    voltage-min-design:  14.8 V
+    capacity-level:      Full
+    energy-rate:         0.0148 W
+    voltage:             16.46 V
+    charge-cycles:       N/A
+    time to empty:       48.5 days
+    percentage:          100%
+    capacity:            41.5357%
+    technology:          lithium-ion
+    icon-name:          'battery-full-charged-symbolic'
+
+Device: /org/freedesktop/UPower/devices/line_power_ACAD
+  native-path:          ACAD
+  power supply:         yes
+  updated:              Wed 25 Mar 2026 11:37:58 AM EDT (85728 seconds ago)
+  has history:          no
+  has statistics:       no
+  line-power
+    warning-level:       none
+    online:              yes
+    icon-name:          'ac-adapter-symbolic'
+
+Device: /org/freedesktop/UPower/devices/DisplayDevice
+  power supply:         yes
+  updated:              Wed 25 Mar 2026 11:43:28 AM EDT (85398 seconds ago)
+  has history:          no
+  has statistics:       no
+  battery
+    present:             yes
+    state:               fully-charged
+    warning-level:       none
+    energy:              17.2124 Wh
+    energy-full:         17.2124 Wh
+    energy-rate:         0.0148 W
+    charge-cycles:       N/A
+    time to empty:       48.5 days
+    percentage:          100%
+    icon-name:          'battery-full-charged-symbolic'
+
+Daemon:
+  daemon-version:  1.91.0
+  on-battery:      no
+  lid-is-closed:   no
+  lid-is-present:  yes
+  critical-action: PowerOff
