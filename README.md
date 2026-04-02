@@ -11,7 +11,7 @@ Embedded Systems Security Module for x86 and SBC-class embedded Linux platforms.
 
 ## Current reference platform
 
-- Dell Inspiron 5755
+- Dell Inspiron
 - Arch Linux
 - x86_64
 - UEFI boot
